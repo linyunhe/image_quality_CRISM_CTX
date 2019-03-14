@@ -1,3 +1,8 @@
+% Codes are used for image quality analysis of CRISM and CTX
+% SuperGLT and HyBER(MLM) should be well registrated or almost registrated
+% CTX is auto self-adjust the brigntness based on the HyBER(MLM) image.
+% Linyun He
+% 03/14/19
 function res = image_quality_analysis()
     [mlm_filename,mlm_path] = uigetfile({'*.*'},'MLM file');
     [superglt_filename,superglt_path] = uigetfile({'*.*'},'SuperGLT file');
